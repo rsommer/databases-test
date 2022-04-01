@@ -1,0 +1,16 @@
+[project]
+dependencies = [
+    "databases[postgresql,sqlite]>=0.5.5",
+    "psycopg2-binary>=2.9.3",
+    "pytest>=7.1.1",
+    "pytest-asyncio>=0.18.3",
+]
+requires-python = ">=3.8"
+
+[project.urls]
+Homepage = ""
+[tool.pdm]
+
+[build-system]
+requires = ["pdm-pep517>=0.12.0"]
+build-backend = "pdm.pep517.api"

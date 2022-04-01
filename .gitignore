@@ -1,0 +1,5 @@
+.*
+!.gitignore
+__pypackages__/
+__pycache__/
+example.db
